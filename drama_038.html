@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轰炸天团 - 芒果TV中剧分销</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="left-title">🎬 芒果TV中剧分销</div>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="搜索剧名、主演、题材...">
+        </div>
+        <div class="logos">
+            <div class="logo-mangguo"><img src="logo_mangguo.png" alt="芒果TV"></div>
+            <div class="logo-damang"><img src="logo_damang.png" alt="大芒剧场"></div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <nav class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-title">❤️ 我的收藏</div>
+                <a href="#" id="fav-link" class="sidebar-item">我的收藏 <span class="sidebar-fav-count" id="fav-count">0</span></a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">📁 按题材分类</div>
+                <a href="index.html#现代爱情" class="sidebar-item">现代爱情 <span class="sidebar-count">23</span></a>
+                <a href="index.html#古装爱情" class="sidebar-item">古装爱情 <span class="sidebar-count">13</span></a>
+                <a href="index.html#现代悬疑" class="sidebar-item">现代悬疑 <span class="sidebar-count">8</span></a>
+                <a href="index.html#古装悬疑" class="sidebar-item">古装悬疑 <span class="sidebar-count">6</span></a>
+                <a href="index.html#青春校园" class="sidebar-item">青春校园 <span class="sidebar-count">5</span></a>
+                <a href="index.html#奇幻爱情" class="sidebar-item">奇幻爱情 <span class="sidebar-count">3</span></a>
+                <a href="index.html#现代剧情" class="sidebar-item active">现代剧情 <span class="sidebar-count">3</span></a>
+                <a href="index.html#古装喜剧" class="sidebar-item">古装喜剧 <span class="sidebar-count">2</span></a>
+                <a href="index.html#民国悬疑" class="sidebar-item">民国悬疑 <span class="sidebar-count">1</span></a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">📅 按年份分类</div>
+                <a href="index.html#2025" class="sidebar-item">2025年 <span class="sidebar-count">10</span></a>
+                <a href="index.html#2024" class="sidebar-item">2024年 <span class="sidebar-count">3</span></a>
+                <a href="index.html#2023" class="sidebar-item">2023年 <span class="sidebar-count">6</span></a>
+                <a href="index.html#2022" class="sidebar-item">2022年 <span class="sidebar-count">15</span></a>
+                <a href="index.html#2021" class="sidebar-item active">2021年 <span class="sidebar-count">26</span></a>
+                <a href="index.html#2020" class="sidebar-item">2020年 <span class="sidebar-count">4</span></a>
+            </div>
+            <div class="sidebar-footer">
+            <div class="copyright">
+                <div class="copyright-line1">Copyright 2006-2026 mgtv.com Corporation, All Rights Reserved</div>
+                <div class="copyright-line2">湖南快乐阳光互动娱乐传媒有限公司 版权所有</div>
+            </div>
+        </div>
+        </nav>
+
+        <main class="content-area">
+            <div class="breadcrumb">
+                <a href="index.html">首页</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="index.html#现代剧情">现代剧情</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="index.html#2021">2021年</a>
+                <span class="breadcrumb-separator">/</span>
+                <span>轰炸天团</span>
+            </div>
+
+            <div class="drama-card">
+                <div class="poster-section">
+                    <div class="poster-wrapper">
+                        <img src="https://1img.hitv.com/preview/sp_images/2021/12/30/202112301820514636131.jpg?x-oss-process=image/resize,w_280,h_392/format,jpg" alt="轰炸天团海报" onerror="this.src='https://via.placeholder.com/280x392/FF6A00/FFFFFF?text=芒果TV'">
+                        <span class="poster-badge">现代剧情</span>
+                        <span class="poster-episodes">20集</span>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h1 class="drama-title">轰炸天团</h1>
+                    <div class="drama-meta">
+                        <span class="meta-tag tag-genre">📺 现代剧情</span>
+                        <span class="meta-tag tag-year">📅 2021年</span>
+                        <span class="meta-tag tag-episodes">🎬 20集</span>
+                        <span class="meta-tag tag-duration">⏱️ 200分钟</span>
+                    </div>
+
+                    <div class="section-title">🎭 主演阵容（点击演员查看参演剧集）</div>
+                    <div class="cast-list"><span class="cast-item" onclick="showActorDramas('吴旭东');document.querySelector('.content-area').scrollIntoView();">吴旭东</span><span class="cast-item" onclick="showActorDramas('蔡宇航');document.querySelector('.content-area').scrollIntoView();">蔡宇航</span><span class="cast-item" onclick="showActorDramas('王千一');document.querySelector('.content-area').scrollIntoView();">王千一</span></div>
+
+                    <div class="section-title">📖 剧情简介</div>
+                    <p class="synopsis">空军飞行部队模拟舱内，刘禅与赵宇航作为本届学员中的佼佼者，展开了部队模拟战“第一机长”之争，却不料两人因战术分歧造成失误并得到回炉重造的惩罚：在限期内，两人必须带出两支能打胜仗的全新队伍，否则他们将面临被开除的危险。可是，这届队伍也太难带了，更难的是，还要挑战女中豪杰学院第一女机械师——桃夭夭!</p>
+
+                    <div class="watch-section">
+                        <div class="watch-btn-group">
+                            <a href="https://www.mgtv.com/h/409556.html" class="watch-btn" target="_blank">立即观看</a>
+                            <button class="fav-action-btn" data-id="38" onclick="toggleFavorite(38);updateAllFavButtons();">
+                                <span class="heart">🤍</span><span class="fav-text">收藏</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="drama_037.html" class="page-btn">← 上一部：无法沉睡的她</a>
+                <span class="page-info">第 38 / 64 部</span>
+                <a href="drama_039.html" class="page-btn">下一部：夏虫可语冰 →</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="common.js"></script>
+</body>
+</html>

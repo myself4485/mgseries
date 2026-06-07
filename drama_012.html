@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们之间的秘密 - 芒果TV中剧分销</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="left-title">🎬 芒果TV中剧分销</div>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="搜索剧名、主演、题材...">
+        </div>
+        <div class="logos">
+            <div class="logo-mangguo"><img src="logo_mangguo.png" alt="芒果TV"></div>
+            <div class="logo-damang"><img src="logo_damang.png" alt="大芒剧场"></div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <nav class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-title">❤️ 我的收藏</div>
+                <a href="#" id="fav-link" class="sidebar-item">我的收藏 <span class="sidebar-fav-count" id="fav-count">0</span></a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">📁 按题材分类</div>
+                <a href="index.html#现代爱情" class="sidebar-item active">现代爱情 <span class="sidebar-count">23</span></a>
+                <a href="index.html#古装爱情" class="sidebar-item">古装爱情 <span class="sidebar-count">13</span></a>
+                <a href="index.html#现代悬疑" class="sidebar-item">现代悬疑 <span class="sidebar-count">8</span></a>
+                <a href="index.html#古装悬疑" class="sidebar-item">古装悬疑 <span class="sidebar-count">6</span></a>
+                <a href="index.html#青春校园" class="sidebar-item">青春校园 <span class="sidebar-count">5</span></a>
+                <a href="index.html#奇幻爱情" class="sidebar-item">奇幻爱情 <span class="sidebar-count">3</span></a>
+                <a href="index.html#现代剧情" class="sidebar-item">现代剧情 <span class="sidebar-count">3</span></a>
+                <a href="index.html#古装喜剧" class="sidebar-item">古装喜剧 <span class="sidebar-count">2</span></a>
+                <a href="index.html#民国悬疑" class="sidebar-item">民国悬疑 <span class="sidebar-count">1</span></a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">📅 按年份分类</div>
+                <a href="index.html#2025" class="sidebar-item">2025年 <span class="sidebar-count">10</span></a>
+                <a href="index.html#2024" class="sidebar-item">2024年 <span class="sidebar-count">3</span></a>
+                <a href="index.html#2023" class="sidebar-item active">2023年 <span class="sidebar-count">6</span></a>
+                <a href="index.html#2022" class="sidebar-item">2022年 <span class="sidebar-count">15</span></a>
+                <a href="index.html#2021" class="sidebar-item">2021年 <span class="sidebar-count">26</span></a>
+                <a href="index.html#2020" class="sidebar-item">2020年 <span class="sidebar-count">4</span></a>
+            </div>
+            <div class="sidebar-footer">
+            <div class="copyright">
+                <div class="copyright-line1">Copyright 2006-2026 mgtv.com Corporation, All Rights Reserved</div>
+                <div class="copyright-line2">湖南快乐阳光互动娱乐传媒有限公司 版权所有</div>
+            </div>
+        </div>
+        </nav>
+
+        <main class="content-area">
+            <div class="breadcrumb">
+                <a href="index.html">首页</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="index.html#现代爱情">现代爱情</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="index.html#2023">2023年</a>
+                <span class="breadcrumb-separator">/</span>
+                <span>我们之间的秘密</span>
+            </div>
+
+            <div class="drama-card">
+                <div class="poster-section">
+                    <div class="poster-wrapper">
+                        <img src="https://4img.hitv.com/preview/sp_images/2023/12/15/202312151524577371405.jpg?x-oss-process=image/resize,w_280,h_392/format,jpg" alt="我们之间的秘密海报" onerror="this.src='https://via.placeholder.com/280x392/FF6A00/FFFFFF?text=芒果TV'">
+                        <span class="poster-badge">现代爱情</span>
+                        <span class="poster-episodes">48集</span>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h1 class="drama-title">我们之间的秘密</h1>
+                    <div class="drama-meta">
+                        <span class="meta-tag tag-genre">📺 现代爱情</span>
+                        <span class="meta-tag tag-year">📅 2023年</span>
+                        <span class="meta-tag tag-episodes">🎬 48集</span>
+                        <span class="meta-tag tag-duration">⏱️ 480分钟</span>
+                    </div>
+
+                    <div class="section-title">🎭 主演阵容（点击演员查看参演剧集）</div>
+                    <div class="cast-list"><span class="cast-item" onclick="showActorDramas('刘海宽');document.querySelector('.content-area').scrollIntoView();">刘海宽</span><span class="cast-item" onclick="showActorDramas('刘一曈');document.querySelector('.content-area').scrollIntoView();">刘一曈</span><span class="cast-item" onclick="showActorDramas('王心妤');document.querySelector('.content-area').scrollIntoView();">王心妤</span><span class="cast-item" onclick="showActorDramas('赵轩');document.querySelector('.content-area').scrollIntoView();">赵轩</span><span class="cast-item" onclick="showActorDramas('滕爱弦');document.querySelector('.content-area').scrollIntoView();">滕爱弦</span><span class="cast-item" onclick="showActorDramas('梁弘立');document.querySelector('.content-area').scrollIntoView();">梁弘立</span><span class="cast-item" onclick="showActorDramas('刘伶');document.querySelector('.content-area').scrollIntoView();">刘伶</span></div>
+
+                    <div class="section-title">📖 剧情简介</div>
+                    <p class="synopsis">国内首部澳门题材短剧，联动澳门社会文化司，作为献礼“澳门回归25周年”先导项目策划执行。故事呈现的是澳门成长起来的新一代年轻人，在老城区生活，在新地标奋斗的向阳人生。讲述外表冷峻的外来厨师王廷之及女儿王芊芊，与澳门当地小辣椒黄依琳及外婆张宝琴，因“房”结缘，因“美食”情感升温，最终在同一屋檐下携手走向爱情的暖心故事。</p>
+
+                    <div class="watch-section">
+                        <div class="watch-btn-group">
+                            <a href="https://www.mgtv.com/h/610526.html" class="watch-btn" target="_blank">立即观看</a>
+                            <button class="fav-action-btn" data-id="12" onclick="toggleFavorite(12);updateAllFavButtons();">
+                                <span class="heart">🤍</span><span class="fav-text">收藏</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="drama_011.html" class="page-btn">← 上一部：江湖少年诀</a>
+                <span class="page-info">第 12 / 64 部</span>
+                <a href="drama_013.html" class="page-btn">下一部：那年夏天的秘密 →</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="common.js"></script>
+</body>
+</html>

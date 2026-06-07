@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刺客学苑 - 芒果TV中剧分销</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="left-title">🎬 芒果TV中剧分销</div>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="搜索剧名、主演、题材...">
+        </div>
+        <div class="logos">
+            <div class="logo-mangguo"><img src="logo_mangguo.png" alt="芒果TV"></div>
+            <div class="logo-damang"><img src="logo_damang.png" alt="大芒剧场"></div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <nav class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-title">❤️ 我的收藏</div>
+                <a href="#" id="fav-link" class="sidebar-item">我的收藏 <span class="sidebar-fav-count" id="fav-count">0</span></a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">📁 按题材分类</div>
+                <a href="index.html#现代爱情" class="sidebar-item">现代爱情 <span class="sidebar-count">23</span></a>
+                <a href="index.html#古装爱情" class="sidebar-item">古装爱情 <span class="sidebar-count">13</span></a>
+                <a href="index.html#现代悬疑" class="sidebar-item">现代悬疑 <span class="sidebar-count">8</span></a>
+                <a href="index.html#古装悬疑" class="sidebar-item active">古装悬疑 <span class="sidebar-count">6</span></a>
+                <a href="index.html#青春校园" class="sidebar-item">青春校园 <span class="sidebar-count">5</span></a>
+                <a href="index.html#奇幻爱情" class="sidebar-item">奇幻爱情 <span class="sidebar-count">3</span></a>
+                <a href="index.html#现代剧情" class="sidebar-item">现代剧情 <span class="sidebar-count">3</span></a>
+                <a href="index.html#古装喜剧" class="sidebar-item">古装喜剧 <span class="sidebar-count">2</span></a>
+                <a href="index.html#民国悬疑" class="sidebar-item">民国悬疑 <span class="sidebar-count">1</span></a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">📅 按年份分类</div>
+                <a href="index.html#2025" class="sidebar-item">2025年 <span class="sidebar-count">10</span></a>
+                <a href="index.html#2024" class="sidebar-item">2024年 <span class="sidebar-count">3</span></a>
+                <a href="index.html#2023" class="sidebar-item">2023年 <span class="sidebar-count">6</span></a>
+                <a href="index.html#2022" class="sidebar-item">2022年 <span class="sidebar-count">15</span></a>
+                <a href="index.html#2021" class="sidebar-item active">2021年 <span class="sidebar-count">26</span></a>
+                <a href="index.html#2020" class="sidebar-item">2020年 <span class="sidebar-count">4</span></a>
+            </div>
+            <div class="sidebar-footer">
+            <div class="copyright">
+                <div class="copyright-line1">Copyright 2006-2026 mgtv.com Corporation, All Rights Reserved</div>
+                <div class="copyright-line2">湖南快乐阳光互动娱乐传媒有限公司 版权所有</div>
+            </div>
+        </div>
+        </nav>
+
+        <main class="content-area">
+            <div class="breadcrumb">
+                <a href="index.html">首页</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="index.html#古装悬疑">古装悬疑</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="index.html#2021">2021年</a>
+                <span class="breadcrumb-separator">/</span>
+                <span>刺客学苑</span>
+            </div>
+
+            <div class="drama-card">
+                <div class="poster-section">
+                    <div class="poster-wrapper">
+                        <img src="https://1img.hitv.com/preview/sp_images/2021/10/18/202110180845348982252.jpg?x-oss-process=image/resize,w_280,h_392/format,jpg" alt="刺客学苑海报" onerror="this.src='https://via.placeholder.com/280x392/FF6A00/FFFFFF?text=芒果TV'">
+                        <span class="poster-badge">古装悬疑</span>
+                        <span class="poster-episodes">18集</span>
+                    </div>
+                </div>
+
+                <div class="info-section">
+                    <h1 class="drama-title">刺客学苑</h1>
+                    <div class="drama-meta">
+                        <span class="meta-tag tag-genre">📺 古装悬疑</span>
+                        <span class="meta-tag tag-year">📅 2021年</span>
+                        <span class="meta-tag tag-episodes">🎬 18集</span>
+                        <span class="meta-tag tag-duration">⏱️ 190分钟</span>
+                    </div>
+
+                    <div class="section-title">🎭 主演阵容（点击演员查看参演剧集）</div>
+                    <div class="cast-list"><span class="cast-item" onclick="showActorDramas('许清雅');document.querySelector('.content-area').scrollIntoView();">许清雅</span><span class="cast-item" onclick="showActorDramas('常斌');document.querySelector('.content-area').scrollIntoView();">常斌</span><span class="cast-item" onclick="showActorDramas('马小钦');document.querySelector('.content-area').scrollIntoView();">马小钦</span><span class="cast-item" onclick="showActorDramas('段星羽');document.querySelector('.content-area').scrollIntoView();">段星羽</span><span class="cast-item" onclick="showActorDramas('刘增宇');document.querySelector('.content-area').scrollIntoView();">刘增宇</span></div>
+
+                    <div class="section-title">📖 剧情简介</div>
+                    <p class="synopsis">一群心怀济世理想的少年人在刺客学苑中苦修武艺，纷纷盼望完成学苑试炼，离苑行侠仗义。排行第一的学霸少女韩小楚首个获得试炼机会，眼看就能出师，却被吊儿郎当的废柴同学龙辟邪干扰，于最终试炼中失利。紧接着，一系列惊悚事件接连发生：试炼突然变成危及性命的追杀、废柴龙辟邪其实是武功绝顶的高手、追杀他们的人是学苑教师，而当死里逃生的韩小楚一觉醒来，却发现她唯一可以依靠的龙辟邪神秘失踪、同学们纷纷失忆……这座刺客学苑隐藏着无数秘密，韩小楚只能靠自己勘破一切，求得生路！</p>
+
+                    <div class="watch-section">
+                        <div class="watch-btn-group">
+                            <a href="https://www.mgtv.com/h/393355.html" class="watch-btn" target="_blank">立即观看</a>
+                            <button class="fav-action-btn" data-id="27" onclick="toggleFavorite(27);updateAllFavButtons();">
+                                <span class="heart">🤍</span><span class="fav-text">收藏</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="drama_026.html" class="page-btn">← 上一部：我在古代当萌探</a>
+                <span class="page-info">第 27 / 64 部</span>
+                <a href="drama_028.html" class="page-btn">下一部：为你千千万万遍 →</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="common.js"></script>
+</body>
+</html>
